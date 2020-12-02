@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luke01", "src\Luke01\Luke01
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Luke01", "src\fsharp\Luke01\Luke01.fsproj", "{B292A5A1-CF6D-493A-A2D8-3EECDED0BCB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luke02", "src\Luke02\Luke02.csproj", "{586E2FC5-2A11-45CD-AC0E-5661A747CEA0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Luke02", "src\fsharp\Luke02\Luke02.fsproj", "{42A02397-9367-4B92-A591-1946CCA4896F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{B292A5A1-CF6D-493A-A2D8-3EECDED0BCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B292A5A1-CF6D-493A-A2D8-3EECDED0BCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B292A5A1-CF6D-493A-A2D8-3EECDED0BCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586E2FC5-2A11-45CD-AC0E-5661A747CEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586E2FC5-2A11-45CD-AC0E-5661A747CEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586E2FC5-2A11-45CD-AC0E-5661A747CEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586E2FC5-2A11-45CD-AC0E-5661A747CEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A02397-9367-4B92-A591-1946CCA4896F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A02397-9367-4B92-A591-1946CCA4896F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A02397-9367-4B92-A591-1946CCA4896F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A02397-9367-4B92-A591-1946CCA4896F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
