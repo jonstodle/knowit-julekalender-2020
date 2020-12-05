@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Luke03
+namespace CSharp.Luke03
 {
-	class Program
+	public static class Program
 	{
-		static void Main(string[] args)
+		public static void Run()
 		{
 			var matrix = File.ReadAllLines("matrix.txt").ToList();
 			Console.WriteLine(string.Join(",", 

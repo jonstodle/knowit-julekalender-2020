@@ -1,8 +1,9 @@
-﻿open System
+﻿module FSharp.Luke01
+
+open System
 open System.IO
 
-[<EntryPoint>]
-let main argv =
+let run =
     let nums =
         File.ReadAllText("numbers.txt").Split(',')
         |> Array.toList
@@ -12,7 +13,5 @@ let main argv =
     [1..100000]
     |> Seq.except nums
     |> Seq.head
-    |>  printfn "%i"
+    |> printfn "%i"
     |> ignore
-    
-    0

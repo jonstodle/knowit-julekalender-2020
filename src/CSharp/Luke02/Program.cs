@@ -2,11 +2,11 @@
 using System.IO;
 using System.Linq;
 
-namespace Luke02
+namespace CSharp.Luke02
 {
-	class Program
+	public static class Program
 	{
-		static void Main(string[] args)
+		public static void Run()
 		{
 			var primes = File.ReadAllText("primes.txt")
 				.Split(' ')

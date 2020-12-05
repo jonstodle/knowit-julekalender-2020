@@ -2,11 +2,11 @@
 using System.IO;
 using System.Linq;
 
-namespace Luke04
+namespace CSharp.Luke04
 {
-	class Program
+	public static class Program
 	{
-		static void Main(string[] args)
+		public static void Run()
 		{
 			var totalIngredients = File.ReadAllLines("leveringsliste.txt")
 				.Select(ParseLine)

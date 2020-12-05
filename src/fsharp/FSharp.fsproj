@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Luke01.fs" />
+    <Compile Include="Luke02.fs" />
+    <Compile Include="Luke03.fs" />
+    <Compile Include="Luke04.fs" />
+    <Compile Include="Luke05.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="Luke01\numbers.txt" />
+    <Content Include="Luke01\Oppgave.md" />
+    <Content Include="Luke02\Oppgave.md" />
+    <Content Include="Luke02\primes.txt" />
+    <Content Include="Luke03\matrix.txt" />
+    <Content Include="Luke03\Oppgave.md" />
+    <Content Include="Luke03\wordlist.txt" />
+    <Content Include="Luke04\leveringsliste.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Luke05\rute.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Luke05\Oppgave.md" />
+    <None Include="Luke05\eksrute.png" />
+    <None Include="Luke05\2x2.png" />
+  </ItemGroup>
+
+</Project>

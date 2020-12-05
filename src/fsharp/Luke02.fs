@@ -1,8 +1,9 @@
-﻿open System
+﻿module FSharp.Luke02
+
+open System
 open System.IO
 
-[<EntryPoint>]
-let main argv =
+let run =
     let primes =
         File.ReadAllText "primes.txt"
         |> (fun s -> s.Split(' '))
@@ -20,5 +21,3 @@ let main argv =
     |> (fun (_, tally) -> tally)
     |> printfn "%i"
     |> ignore
-
-    0

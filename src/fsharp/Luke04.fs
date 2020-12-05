@@ -1,4 +1,6 @@
-﻿open System
+﻿module FSharp.Luke04
+
+open System
 open System.IO
 
 type Delivery = {
@@ -11,8 +13,7 @@ type Delivery = {
 let sufficientQuantities delivery =
     delivery.Sugar >= 2 && delivery.Flour >= 3 && delivery.Milk >= 3 && delivery.Eggs >= 1
 
-[<EntryPoint>]
-let main argv =
+let run =
     File.ReadAllLines "leveringsliste.txt"
     |> Array.toList
     |> List.collect (fun line -> line.Split(',') |> Array.toList)
@@ -31,5 +32,3 @@ let main argv =
                                  else None)
     |> List.sum
     |> printfn "%i"
-    
-    0 // return an integer exit code
