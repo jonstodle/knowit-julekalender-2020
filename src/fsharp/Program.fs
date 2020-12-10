@@ -11,6 +11,7 @@ let main argv =
     | head::_ when head = "6" -> Luke06.run
     | head::_ when head = "7" -> Luke07.run
     | head::_ when head = "8" -> Luke08.run
+    | head::_ when head = "9" -> Luke09.run
     | _ -> failwith "Requires exactly one (1) argument. The argument must be a number between 1 and 24"
     
     0 // return an integer exit code

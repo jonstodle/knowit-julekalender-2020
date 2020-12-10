@@ -17,6 +17,7 @@ namespace CSharp
                 case "6": Luke06.Program.Run(); break;
                 case "7": Luke07.Program.Run(); break;
                 case "8": Luke08.Program.Run(); break;
+                case "9": Luke09.Program.Run(); break;
                 default: throw new ArgumentException("Requires one (1) argument. Must be number between 1 and 24");
             }
 		}
