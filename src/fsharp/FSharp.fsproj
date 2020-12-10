@@ -15,6 +15,7 @@
     <Compile Include="Luke07.fs" />
     <Compile Include="Luke08.fs" />
     <Compile Include="Luke09.fs" />
+    <Compile Include="Luke10.fs" />
     <Compile Include="Program.fs" />
     <Content Include="Luke01\numbers.txt" />
     <Content Include="Luke01\Oppgave.md" />
@@ -49,6 +50,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Luke09\Oppgave.md" />
+    <None Include="Luke10\leker.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Luke10\Oppgave.md" />
   </ItemGroup>
 
 </Project>
